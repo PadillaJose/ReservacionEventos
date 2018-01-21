@@ -15,7 +15,6 @@ import java.util.List;
 @NamedQuery(name="Cliente.findAll", query="SELECT c FROM Cliente c")
 public class Cliente implements Serializable {
 	private static final long serialVersionUID = 1L;
-
 	@Id
 	@Column(unique=true, nullable=false, length=13)
 	private String idcliente;
